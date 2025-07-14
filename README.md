@@ -4,7 +4,7 @@ Este grupo de estudos tem como objetivo aprender e compartilhar conhecimento sob
 Nosso grupo reúne desenvolvedores(as), entusiastas e curiosos(as) com diferentes níveis de experiência com objetivo de entender os fundamentos e aplicações dessa tecnologia.
 
 Com uma cultura colaborativa de aprendizado contínuo, nossos encontros semanais combinam teoria, prática, ferramentas de desenvolvimento e aplicações reais.
-Ao final, os participantes terá fundamentos iniciais para entendimento de contratos inteligentes, teste de aplicações descentralizadas e compreensão de segurança e criptografia características de blockchains públicas e privadas.
+Ao final, os participantes terão fundamentos iniciais para entendimento de contratos inteligentes, teste de aplicações descentralizadas e compreensão de segurança e criptografia características de blockchains públicas e privadas.
 
 ---
 
@@ -25,7 +25,7 @@ Nosso cronograma está organizado em 13 encontros temáticos, com conteúdo téc
    - 3.2 Criptografia de chave pública e privada  
    - 3.3 Assinaturas digitais e integridade
 4. [**Bitcoin**](https://github.com/venturusbr/grupo-estudos-blockchain/tree/main/encontro-semanal/04-bitcoin)
-   - 4.1 Modelo UTXO  
+   - 4.1 Modelo UTXO 
    - 4.2 Mineração e proof-of-work  
    - 4.3 Transações, recompensas e segurança da rede
 5. [**Ethereum & Smart Contracts**](https://github.com/venturusbr/grupo-estudos-blockchain/tree/main/encontro-semanal/05-ethereum)
@@ -77,7 +77,7 @@ Este repositório será atualizado semanalmente com:
 
 - Anotações dos encontros.
 - Exemplos de código.
-- Slides e recursos extras.
+- Slides, imagens e recursos extras.
 - Links para projetos e tutoriais complementares.
 
 ---
