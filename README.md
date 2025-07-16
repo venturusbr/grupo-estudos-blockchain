@@ -22,7 +22,7 @@ Nosso cronograma está organizado em 13 encontros temáticos, com conteúdo téc
    - 2.3 Hashes (SHA-256 e similares)  
    - 2.4 Criptografia de chave pública e privada  
    - 2.5 Assinaturas digitais e integridade
-3. [**Modelos de Consenso**](https://github.com/venturusbr/grupo-estudos-blockchain/tree/main/encontro-semanal/03-criptografia)
+3. [**Modelos de Consenso**](https://github.com/venturusbr/grupo-estudos-blockchain/tree/main/encontro-semanal/03-consenso)
    - 3.1 Proof of Work
    - 3.2 Proof of Stake
    - 3.3 Proof of Authority
