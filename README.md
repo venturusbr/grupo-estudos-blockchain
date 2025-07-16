@@ -15,18 +15,20 @@ Nosso cronograma está organizado em 13 encontros temáticos, com conteúdo téc
 1. [**Introdução**](https://github.com/venturusbr/grupo-estudos-blockchain/tree/main/encontro-semanal/01-intro)
    - 1.1 O que é blockchain  
    - 1.2 Por que a tecnologia surgiu  
-   - 1.3 Problemas que resolve (confiança, imutabilidade, descentralização)
+   - 1.3 Soluções que apresenta (confiança, imutabilidade, descentralização)
 2. [**Estrutura Técnica**](https://github.com/venturusbr/grupo-estudos-blockchain/tree/main/encontro-semanal/02-estrutura-tecnica)
    - 2.1 O que é um bloco e como são encadeados  
    - 2.2 Hashes, timestamps, e referências  
-   - 2.3 Nós, redes P2P e consenso distribuído
-3. [**Criptografia**](https://github.com/venturusbr/grupo-estudos-blockchain/tree/main/encontro-semanal/03-criptografia)
-   - 3.1 Hashes (SHA-256 e similares)  
-   - 3.2 Criptografia de chave pública e privada  
-   - 3.3 Assinaturas digitais e integridade
+   - 2.3 Hashes (SHA-256 e similares)  
+   - 2.4 Criptografia de chave pública e privada  
+   - 2.5 Assinaturas digitais e integridade
+3. [**Modelos de Consenso**](https://github.com/venturusbr/grupo-estudos-blockchain/tree/main/encontro-semanal/03-criptografia)
+   - 3.1 Proof of Work
+   - 3.2 Proof of Stake
+   - 3.3 Proof of Authority
 4. [**Bitcoin**](https://github.com/venturusbr/grupo-estudos-blockchain/tree/main/encontro-semanal/04-bitcoin)
    - 4.1 Modelo UTXO 
-   - 4.2 Mineração e proof-of-work  
+   - 4.2 Mineração
    - 4.3 Transações, recompensas e segurança da rede
 5. [**Ethereum & Smart Contracts**](https://github.com/venturusbr/grupo-estudos-blockchain/tree/main/encontro-semanal/05-ethereum)
    - 5.1 Diferença entre contas externas e contratos  
