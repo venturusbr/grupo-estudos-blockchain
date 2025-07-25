@@ -1,7 +1,7 @@
 # Semana 5
 data do encontro: 12/08/2025
 
-### Assuntos Abordados
+### Conteúdo para Estudo
 - [Ethereum Whitepaper](https://ethereum.org/en/whitepaper/) [Artigo]
 - [O que é a Ethereum?](https://www.youtube.com/watch?v=UihMqcj-cqc) [Vídeo - 30 min]
 - [O que são Smart Contracts?](https://www.ibm.com/think/topics/smart-contracts) [Artigo]

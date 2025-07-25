@@ -1,7 +1,7 @@
 # Semana 4
 data do encontro: 05/08/2025
 
-### Assuntos Abordados
+### Conteúdo para Estudo
 - [Bitcoin Whitepaper](https://bitcoin.org/files/bitcoin-paper/bitcoin_pt_br.pdf) [Artigo]
 - [O que é UTXO?](https://academy.binance.com/en/glossary/unspent-transaction-output-utxo) [Artigo]
 - [Como gerenciar UTXO](https://river.com/learn/bitcoins-utxo-model/) [Artigo ~10 min]

@@ -1,7 +1,7 @@
 # Semana 3
 data do encontro: 29/07/2025
 
-### Assuntos Abordados
+### Conteúdo para Estudo
 - [Tipos de Blockchain](https://blog.cfte.education/types-of-blockchain-networks/)
 - [Modelos de Consenso](https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf) [Artigo, pág.18-22]
 - [O que é Proof of Work](https://www.infomoney.com.br/guias/proof-of-work-pow/) [Artigo] 
