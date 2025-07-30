@@ -11,26 +11,38 @@ data do encontro: 22/07/2025
 
 ### Assuntos Abordados
 1.	O que é blockchain (visão IBM e AWS):
-	•	Conceito geral e casos de uso corporativos.
+	-	Conceito geral e casos de uso corporativos.
+
+---
+
 2.	Estrutura técnica da blockchain:
-	•	Blocos e encadeamento de blocos.
-	•	Componentes do bloco:
+	-	Blocos e encadeamento de blocos.
+	-	Componentes do bloco:
         -	Cabeçalho do bloco.
         -	Dados e transações.
         -	Conceito de ledger.
+
+---
+
 3.	Criptografia básica aplicada à blockchain:
-	•	Hash functions:
+	-	Hash functions:
         -	Explicação do SHA-256.
         -	Características do output fixo (256 bits).
-	•	Assinatura digital:
+	-	Assinatura digital:
         -	Chave pública e privada.
         -	Custódia própria vs custódia terceirizada.
+
+---
+
 4.	Vídeos recomendados:
-	•	Canal 3Blue1Brown:
+	-	Canal 3Blue1Brown:
         -	Vídeo de 25 minutos explicando hash functions e segurança.
         -	Vídeo complementar de 5 minutos sobre o mesmo tema.
+
+---
+
 5. Demonstração prática
-	•	Navegação em um site interativo mostrando:
+	-	Navegação em um site interativo mostrando:
         -	Como um bloco é formado.
         -	Como funciona a encadeação.
         -	Exemplos de geração de hash SHA-256 a partir de mensagens.
