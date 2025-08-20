@@ -39,16 +39,27 @@ Nosso cronograma está organizado em 13 encontros temáticos, com conteúdo téc
    - 6.2 Rastreabilidade e supply chain  
    - 6.3 NFTs, jogos e arte
    - 6.4 Finanças descentralizadas (DeFi)
-7. [**Ferramentas**](https://github.com/venturusbr/grupo-estudos-blockchain/tree/main/encontro-semanal/07-ferramentas)
-   - 7.1 TBD
-8. [**Solidity Básico**](https://github.com/venturusbr/grupo-estudos-blockchain/tree/main/encontro-semanal/08-solidity)
-   - 8.1 TBD
-9. [**Fluxo e Segurança**](https://github.com/venturusbr/grupo-estudos-blockchain/tree/main/encontro-semanal/09-seguranca)
-   - 9.1 TBD
-10. [**Testes com Hardhat**](https://github.com/venturusbr/grupo-estudos-blockchain/tree/main/encontro-semanal/10-hardhat)
-    - 10.1 TBD
-11. [**Frontend com Ethers.js**](https://github.com/venturusbr/grupo-estudos-blockchain/tree/main/encontro-semanal/11-ethers)
-    - 11.1 TBD
+7. [**Setup e Ferramentas**](https://github.com/venturusbr/grupo-estudos-blockchain/tree/main/encontro-semanal/07-ferramentas)
+   - 7.1 Node.js + NPM
+   - 7.2 Hardhat
+   - 7.3 Configuração Editor
+   - 7.4 Metamask
+8. [**Solidity + Forge**](https://github.com/venturusbr/grupo-estudos-blockchain/tree/main/encontro-semanal/08-solidity)
+   - 8.1 Tipos básicos
+   - 8.2 Escrita contrato simples
+   - 8.3 Composição de contratos
+   - 8.4 Testes via Hardhat console
+9. [**Deploy e Interação**](https://github.com/venturusbr/grupo-estudos-blockchain/tree/main/encontro-semanal/09-seguranca)
+   - 9.1 Chamada de funções
+   - 9.2 Observar mudança de estados
+   - 9.3 Visualização de blocos, endereços e uso de gas
+10. [**Testes**](https://github.com/venturusbr/grupo-estudos-blockchain/tree/main/encontro-semanal/10-hardhat)
+    - 10.1 Criação de testes para nosso contrato utilizando Forge
+    - 10.2 Reforço de conceitos
+    - 10.3 Espaço para dúvidas e experimentações
+11. [**Frontend / Backend**](https://github.com/venturusbr/grupo-estudos-blockchain/tree/main/encontro-semanal/11-ethers)
+    - 11.1 Criação de um Frontend para interagir com nosso contrato
+    - 11.2 Criação de um Backend para interagir com nosso contrato
 12. [**Eagle Audit (Venturus)**](https://github.com/venturusbr/grupo-estudos-blockchain/tree/main/encontro-semanal/12-eagle-audit)
     - 12.1 O que é a ferramenta Eagle Audit  
     - 12.2 Como funciona a análise de contratos  
@@ -86,7 +97,7 @@ Este repositório será atualizado semanalmente com:
 
 ## Organização
 
-Este grupo de estudos foi idealizado pela empresa [Venturus](https://venturus.org.br/) e mediado por [Renato Carneiro](https://github.com/kingmacbeth).
+Este grupo de estudos foi idealizado pela empresa [Venturus](https://venturus.org.br/) e mediado por [Renato Carneiro](https://github.com/rgcarneiro).
 
 ---
 
