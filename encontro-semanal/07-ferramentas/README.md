@@ -11,3 +11,7 @@ data do encontro: 26/08/2025
 - Seguiremos o tutorial da Hardhat, do 'Getting Started' até 'Deploying Contracts'. 
 [Início] (https://hardhat.org/docs/getting-started#getting-started-with-hardhat-3)
 [Término] (https://hardhat.org/docs/getting-started#deploying-contracts)
+
+### Assuntos Abordados
+- Completamos o tutorial da Hardhat tirando dúvidas sobre os arquivos principais.
+- Diretório com o tutorial adicionado na raíz deste repositório.
