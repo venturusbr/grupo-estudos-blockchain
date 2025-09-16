@@ -8,6 +8,7 @@ contract TestTokenTest is Test {
     TestToken token;
     address owner = address(0xA11CE);
     address bob = address(0xB0B);
+    address alice = address(0xB0C);
 
     function setUp() public {
         token = new TestToken("TestToken", "TTK", 18, 1000, owner);
@@ -20,22 +21,35 @@ contract TestTokenTest is Test {
 
     function testMintByOwner() public {
         vm.prank(owner);
-        token.mint(bob, 200 * 1e18);
-        assertEq(token.balanceOf(bob), 200 * 1e18);
+        token.mint(bob, 300 * 1e18);
+        assertEq(token.balanceOf(bob), 300 * 1e18);
     }
 
     function test_RevertWhen_NotOwnerMints() public {
-        vm.expectRevert("Only owner"); // mesma mensagem do require no contrato
+        vm.expectRevert("Only owner");
         token.mint(bob, 200 * 1e18);
     }
 
     function testTransfer() public {
+
         vm.startPrank(owner);
         token.transfer(owner, bob, 50 * 1e18);
         vm.stopPrank();
 
         assertEq(token.balanceOf(owner), 950 * 1e18);
         assertEq(token.balanceOf(bob), 50 * 1e18);
+    }
+
+    function testTransferNotAllowed() public {
+
+        vm.startPrank(owner);
+        token.transfer(owner, bob, 50 * 1e18);
+        vm.stopPrank();
+
+        vm.expectRevert("Insufficient balance");
+        vm.startPrank(owner);
+        token.transfer(owner, bob, 2000 * 1e18);
+        vm.stopPrank();
     }
 
     function testBurn() public {
