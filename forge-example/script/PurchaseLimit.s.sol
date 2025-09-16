@@ -19,7 +19,7 @@ contract PurchaseLimitDemo is Script {
         address buyer = vm.addr(BOB_PK);
 
         vm.startBroadcast(OWNER_PK);
-        TestToken token = new TestToken("TestToken","TTK",18,10_000, owner);
+        TestToken token = new TestToken("TestToken", "TTK", 18, 10_000, owner);
         TokenStore store = new TokenStore(address(token), owner);
         console.log("Token:", address(token));
         console.log("Store:", address(store));

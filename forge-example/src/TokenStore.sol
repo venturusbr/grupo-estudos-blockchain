@@ -7,13 +7,14 @@ contract TokenStore {
     TestToken public token;
     address public owner;
 
-    uint256 public itemPrice = 100 * 10**18;
-    uint256 public perAddressDailyLimit = 500 * 10**18;
+    uint256 public itemPrice = 100 * 10 ** 18;
+    uint256 public perAddressDailyLimit = 500 * 10 ** 18;
 
     struct Window {
         uint256 windowStart;
         uint256 spentInWindow;
     }
+
     mapping(address => Window) private spendWindow;
 
     event Purchase(address indexed buyer, uint256 amountPaid, uint256 newSpentInWindow);
@@ -37,8 +38,8 @@ contract TokenStore {
 
     function purchaseItem() external {
         _enforceLimit(msg.sender, itemPrice);
-
-        bool ok = token.transfer(msg.sender, address(this), itemPrice);
+        // agora usa allowance: buyer deve aprovar a store antes
+        bool ok = token.transferFrom(msg.sender, address(this), itemPrice);
         require(ok, "Transfer failed");
 
         Window storage w = spendWindow[msg.sender];
@@ -49,13 +50,13 @@ contract TokenStore {
 
     function storeTokens(uint256 amount) external {
         require(amount > 0, "amount=0");
-        bool ok = token.transfer(msg.sender, address(this), amount);
+        bool ok = token.transferFrom(msg.sender, address(this), amount);
         require(ok, "Transfer failed");
     }
 
     function withdraw(address to, uint256 amount) external onlyOwner {
         require(to != address(0), "to=0");
-        bool ok = token.transfer(address(this), to, amount);
+        bool ok = token.transfer(address(this), to, amount); // aqui msg.sender == address(this)
         require(ok, "Withdraw transfer failed");
         emit Withdraw(to, amount);
     }
@@ -85,6 +86,8 @@ contract TokenStore {
         return (w.spentInWindow, w.windowStart);
     }
 
+    // ===== Internos =====
+
     function _enforceLimit(address buyer, uint256 toSpend) internal {
         Window memory w = _currentWindow(buyer);
         require(w.spentInWindow + toSpend <= perAddressDailyLimit, "Daily limit exceeded");
@@ -100,7 +103,6 @@ contract TokenStore {
         w = spendWindow[buyer];
         uint256 nowDay = block.timestamp / 1 days;
         uint256 start = nowDay * 1 days;
-
         if (w.windowStart < start) {
             w.windowStart = start;
             w.spentInWindow = 0;

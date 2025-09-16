@@ -11,12 +11,12 @@ contract BlocksAddressesGasDemo is Script {
 
     function setUp() public {
         OWNER_PK = vm.envUint("OWNER_PK");
-        BOB_PK  = vm.envUint("BOB_PK");
+        BOB_PK = vm.envUint("BOB_PK");
     }
 
     function run() public {
         address owner = vm.addr(OWNER_PK);
-        address user  = vm.addr(BOB_PK);
+        address user = vm.addr(BOB_PK);
 
         vm.txGasPrice(10 gwei);
 
@@ -28,7 +28,7 @@ contract BlocksAddressesGasDemo is Script {
 
         vm.startBroadcast(OWNER_PK);
         uint256 g0 = gasleft();
-        TestToken token = new TestToken("TestToken","TTK",18, 1_000, owner);
+        TestToken token = new TestToken("TestToken", "TTK", 18, 1_000, owner);
         uint256 g1 = gasleft();
         uint256 gasDeployToken = g0 - g1;
         console.log("Deployed Token:", address(token), "gas usado ~", gasDeployToken);

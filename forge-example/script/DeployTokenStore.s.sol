@@ -10,7 +10,7 @@ contract DeployStore is Script {
     address internal TOKEN_ADDR;
 
     function setUp() public {
-        OWNER_PK  = vm.envUint("OWNER_PK");
+        OWNER_PK = vm.envUint("OWNER_PK");
         TOKEN_ADDR = vm.envAddress("TOKEN_ADDR");
     }
 

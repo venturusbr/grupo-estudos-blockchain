@@ -11,15 +11,15 @@ contract StateChangesDemo is Script {
 
     function setUp() public {
         OWNER_PK = vm.envUint("OWNER_PK");
-        USER_PK  = vm.envUint("ALICE_PK");
+        USER_PK = vm.envUint("ALICE_PK");
     }
 
     function run() public {
         address owner = vm.addr(OWNER_PK);
-        address user  = vm.addr(USER_PK);
+        address user = vm.addr(USER_PK);
 
         vm.startBroadcast(OWNER_PK);
-        TestToken token = new TestToken("TestToken","TTK",18, 500, owner);
+        TestToken token = new TestToken("TestToken", "TTK", 18, 500, owner);
         TokenStore store = new TokenStore(address(token), owner);
         store.setItemPrice(100 * 1e18);
         store.setPerAddressDailyLimit(250 * 1e18);

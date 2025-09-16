@@ -22,7 +22,7 @@ contract CallFunctionsDemo is Script {
         address buyer = vm.addr(BOB_PK);
 
         vm.startBroadcast(OWNER_PK);
-        TestToken token = new TestToken("TestToken","TTK",18, 1_000, owner);
+        TestToken token = new TestToken("TestToken", "TTK", 18, 1_000, owner);
         TokenStore store = new TokenStore(address(token), owner);
         console.log("Deployed Token  :", address(token));
         console.log("Deployed Store  :", address(store));

@@ -18,13 +18,7 @@ contract MintBurnDemo is Script {
         address alice = vm.addr(ALICE_PK);
 
         vm.startBroadcast(OWNER_PK);
-        TestToken token = new TestToken(
-            "TestToken",
-            "TTK",        
-            18,           
-            1_000,        
-            owner         
-        );
+        TestToken token = new TestToken("TestToken", "TTK", 18, 1_000, owner);
         console.log("Token:", address(token));
         console.log("Owner :", owner);
         console.log("Alice :", alice);

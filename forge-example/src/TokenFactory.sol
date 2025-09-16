@@ -8,7 +8,14 @@ contract TokenFactory {
     address[] public allTokens;
 
     event OwnerChanged(address indexed previous, address indexed current);
-    event TokenCreated(address indexed token, address indexed tokenOwner, string name, string symbol, uint8 decimals, uint256 initialSupply);
+    event TokenCreated(
+        address indexed token,
+        address indexed tokenOwner,
+        string name,
+        string symbol,
+        uint8 decimals,
+        uint256 initialSupply
+    );
 
     modifier onlyOwner() {
         require(msg.sender == owner, "Only owner");

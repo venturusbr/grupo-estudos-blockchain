@@ -9,7 +9,7 @@ contract DeployToken is Script {
 
     string internal NAME = "TestToken";
     string internal SYMBOL = "TTK";
-    uint8  internal DECIMALS = 18;
+    uint8 internal DECIMALS = 18;
     uint256 internal INITIAL_SUPPLY = 1_000;
 
     function setUp() public {

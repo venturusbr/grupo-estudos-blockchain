@@ -18,29 +18,17 @@ contract FactoryDemo is Script {
 
     function run() public {
         address factoryOwner = vm.addr(FACTORY_OWNER_PK);
-        address tokenOwnerA  = vm.addr(TOKEN_OWNER_A_PK);
-        address tokenOwnerB  = vm.addr(TOKEN_OWNER_B_PK);
+        address tokenOwnerA = vm.addr(TOKEN_OWNER_A_PK);
+        address tokenOwnerB = vm.addr(TOKEN_OWNER_B_PK);
 
         vm.startBroadcast(FACTORY_OWNER_PK);
         TokenFactory factory = new TokenFactory(factoryOwner);
         console.log("Factory:", address(factory));
 
-        address tokenA = factory.createToken(
-            "AlphaToken",
-            "ALP",
-            18,
-            5_000,
-            tokenOwnerA
-        );
+        address tokenA = factory.createToken("AlphaToken", "ALP", 18, 5_000, tokenOwnerA);
         console.log("Token A:", tokenA, "owner:", tokenOwnerA);
 
-        address tokenB = factory.createToken(
-            "BetaToken",
-            "BET",
-            6,
-            100_000,
-            tokenOwnerB
-        );
+        address tokenB = factory.createToken("BetaToken", "BET", 6, 100_000, tokenOwnerB);
         console.log("Token B:", tokenB, "owner:", tokenOwnerB);
 
         console.log("Token A owner balance:", TestToken(tokenA).balanceOf(tokenOwnerA));
