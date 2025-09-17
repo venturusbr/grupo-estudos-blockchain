@@ -208,9 +208,9 @@ __marimo__/
 
 
 # Foundry
-/out
-/cache
-/broadcast
+out/
+cache/
+broadcast
 
 # Hardhat
 /artifacts
