@@ -3,7 +3,7 @@
 Este grupo de estudos tem como objetivo aprender e compartilhar conhecimento sobre **blockchain** de forma acessível, estruturada e prática.
 Nosso grupo reúne desenvolvedores(as), entusiastas e curiosos(as) com diferentes níveis de experiência com objetivo de entender os fundamentos e aplicações dessa tecnologia.
 
-Com uma cultura colaborativa de aprendizado contínuo, nossos encontros semanais combinam teoria, prática, ferramentas de desenvolvimento e aplicações reais.
+Com uma cultura colaborativa de aprendizado contínuo, nossos encontros a cada duas semanas combinam teoria, prática, ferramentas de desenvolvimento e aplicações reais.
 Ao final, os participantes terão fundamentos iniciais para entendimento de contratos inteligentes, teste de aplicações descentralizadas e compreensão de segurança e criptografia características de blockchains públicas e privadas.
 
 O conteúdo do ano anterior pode ser encontrado em [**Grupo 2025**](https://github.com/venturusbr/grupo-estudos-blockchain/tree/main/2025)
@@ -16,29 +16,29 @@ Nosso cronograma está organizado em 15 encontros temáticos, com conteúdo téc
 
 ## Cronograma de Sessões Quinzenais
 
-### Fase 1: Fundamentos e Estrutura Técnica (Abril - Maio)
+### Fase 1: Fundamentos e Estrutura Técnica
 * Sessão 01: Introdução à Blockchain - Origem, confiança e imutabilidade.
 * Sessão 02: Criptografia e Blocos - Hashes (SHA-256), chaves públicas/privadas e assinaturas.
 * Sessão 03: Modelos de Consenso - Proof of Work, Proof of Stake e Proof of Authority.
 * Sessão 04: O Ecossistema Bitcoin - Modelo UTXO, mineração e segurança da rede.
 
-### Fase 2: Ethereum e Desenvolvimento Inicial (Junho - Julho)
+### Fase 2: Ethereum e Desenvolvimento Inicial
 * Sessão 05: Ethereum e EVM - Contas (EOA vs Contracts), Gas e execução programável.
 * Sessão 06: Casos de Uso e Ecossistema - Identidade digital, Supply Chain, NFTs e DeFi.
 * Sessão 07: Setup de Ferramentas - Node.js, Hardhat, Metamask e configuração de ambiente.
 * Sessão 08: Solidity + Forge I - Tipos básicos, variáveis e escrita do primeiro contrato.
 
-### Fase 3: Interação e Qualidade de Código (Agosto - Setembro)
+### Fase 3: Interação e Qualidade de Código
 * Sessão 09: Deploy e Interação - Chamada de funções, mudança de estado e Block Explorers.
 * Sessão 10: Testes Automatizados - Criação de testes unitários utilizando Forge.
 * Sessão 11: Integração Fullstack - Conectando Frontend (Ethers.js) ao contrato.
 * Sessão 12: Segurança e Auditoria - Introdução ao Eagle Audit e análise de vulnerabilidades básicas.
 
-### Fase 4: Consolidação e Boas Práticas (Outubro)
+### Fase 4: Consolidação e Boas Práticas
 * Sessão 13: Refatoração e Padrões - Melhores práticas de escrita e otimização de Gas.
 * Sessão 14: Workshop de Projeto - Planejamento técnico para o Demo Day de novembro.
 
-### Evento de Encerramento (Novembro)
+### Evento de Encerramento
 * Demo Day: Apresentação do projeto final desenvolvido em grupo.
 
 ---
